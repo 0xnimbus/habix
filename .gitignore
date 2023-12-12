@@ -1,3 +1,2 @@
 # Ignore Electron Node Module
-node_modules/
-# /dist/electron.exe
+node_modules/electron/
