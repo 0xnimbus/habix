@@ -1,6 +1,6 @@
 {
   "name": "habix",
-  "productName": "Habix", 
+  "productName": "Habix",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/0xnimbus/habix#readme",
   "dependencies": {
     "electron": "^28.0.0",
+    "nodemon": "^3.0.2",
     "toastify": "^2.0.1"
   }
 }
