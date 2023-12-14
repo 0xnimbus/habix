@@ -7,8 +7,8 @@ const isMac = process.platform === 'dawrin';
 function createMainWindow() {
     const mainWindow = new BrowserWindow({
         title: "Habix",
-        width: isDev? 1000 : 500,
-        height: 500,
+        width: isDev? 1600 : 1600,
+        height: 900,
     })
 
 //Open Devtools if in dev env
@@ -16,7 +16,7 @@ if (isDev){
     mainWindow.webContents.openDevTools();
 }
 
-    mainWindow.loadFile(path.join(__dirname, './renderer/index.html'));
+    mainWindow.loadFile(path.join(__dirname, './my-app/public/index.html'));
 
 }
 

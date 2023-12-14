@@ -1,2 +1,2 @@
 # Ignore Electron Node Module
-node_modules/electron/
+node_modules
